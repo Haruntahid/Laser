@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop Details</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- hero section -->
+
+    <section class="hero">
+      <h1>Tonur Details</h1>
+    </section>
+
+    <!-- details section -->
+    <section class="details">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="search">
+              <p class="search_title">Search Here</p>
+              <input
+                class="custom_search"
+                type="text"
+                placeholder="Enter Your Keyword..."
+              />
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <div class="service">
+              <p class="service_title">Services List</p>
+              <ul class="lists_of_products">
+                <li>
+                  <img
+                    class="list_img"
+                    src="./img/office_supplies.png"
+                    alt=""
+                  />
+                  <a href="#" class="list_txt">Office Supplies</a>
+                </li>
+                <li>
+                  <img class="list_img" src="./img/toner.png" alt="" />
+                  <a href="#" class="list_txt">Toner,Ink</a>
+                </li>
+                <li>
+                  <img class="list_img" src="./img/printers.png" alt="" />
+                  <a href="#" class="list_txt">Printers/Devices</a>
+                </li>
+                <li>
+                  <img class="list_img" src="./img/labels.png" alt="" />
+                  <a href="#" class="list_txt">Labels</a>
+                </li>
+                <li>
+                  <img class="list_img" src="./img/cleaning_kit.png" alt="" />
+                  <a href="#" class="list_txt">Cleaning Kits</a>
+                </li>
+                <li>
+                  <img class="list_img" src="./img/hygiene.png" alt="" />
+                  <a href="#" class="list_txt">Hygiene/Ergo Products</a>
+                </li>
+              </ul>
+              <a class="custom_btn1" href="#">ACTIONS</a>
+            </div>
+            <div class="contact">
+              <img class="contact_img" src="./img/Phone.png" alt="" />
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="main_img_holder">
+                  <img class="pro_img" src="./img/konica_minolta.png" alt="" />
+                </div>
+                <div class="img_box">
+                  <div class="box" onclick="ImgChange(this)">
+                    <img src="./img/konica_minolta2.png" alt="" />
+                  </div>
+                  <div class="box" onclick="ImgChange(this)">
+                    <img src="./img/ink.png" alt="" />
+                  </div>
+                  <div class="box" onclick="ImgChange(this)">
+                    <img src="./img/ink2.png" alt="" />
+                  </div>
+                  <div class="box" onclick="ImgChange(this)">
+                    <img src="./img/ink3.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <h3 class="product_title">Konica Minolta A0X5155</h3>
+                <div class="prizing">
+                  <h3 class="prize">$29.00</h3>
+                  <p class="review">
+                    <i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i>
+                    <span class="rating">(05 Review)</span>
+                  </p>
+                </div>
+                <div class="description">
+                  <p>
+                    Nunc cursus imperdiet orci, eget hendrerit ante gravida ut.
+                    Aenean non mauris orci. Mauris a magna id erat fermentum
+                    euismod non ut lorem.
+                  </p>
+                </div>
+                <div class="product_info">
+                  <div class="d-flex justify-content-between">
+                    <p>Farbe: <span class="black_hole"></span></p>
+                    <p>Duration: <img src="./img/duration.png" alt="" /></p>
+                  </div>
+                  <div class="product_quantity">
+                    <p>Kap. / Inh: <span>1 Stück</span></p>
+                  </div>
+                  <div class="choose_quantity">
+                    <p class="quantity">Choose Quantity:</p>
+                    <div class="increase_btns">
+                      <span class="neg click_hov">-</span>
+                      <span class="num">0</span>
+                      <span class="pos click_hov">+</span>
+                    </div>
+                  </div>
+                  <div class="tags">
+                    <p>
+                      Tag: <span> agriculture, cattle farm, eco, eco farm</span>
+                    </p>
+                  </div>
+                  <div class="button_holder">
+                    <a class="custom_btn2" href="#"
+                      ><i class="fa-solid fa-heart"></i>Add to Wishlist</a
+                    >
+                    <a class="custom_btn3" href="#"
+                      ><i class="fa-solid fa-cart-shopping"></i>Add To Cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="tab_buttons">
+                <button id="btn1" data class="cstm_btn3">Description</button>
+                <button id="btn2" class="cstm_btn4">Additional Info</button>
+              </div>
+
+              <!-- addition info -->
+
+              <div class="content">
+                <div id="content1" class="tab_content">
+                  <p class="tab_discription">
+                    Fusce porttitor, massa ut congue tincidunt, purus metus
+                    rutrum nunc, sit amet bibendum sem quam id velit. Donec id
+                    tristique dui. Integer cursus augue eu ornare finibus.
+                    Maecenas ac felis orci. Donec nisi enim, volutpat non ante
+                    sed, fringilla gravida ligula. Maecenas ac nulla sed diam
+                    faucibus placerat. Suspendisse in augue iaculis, vehicula
+                    nulla at, molestie diam. <br />
+                    Pellentesque habitant morbi tristique senectus et netus et
+                    malesuada fames ac turpis egestas. Integer varius, libero in
+                    viverra tincidunt, mi metus congue lacus, eget molestie est
+                    augue at mauris. Suspendisse fermentum vestibulum risus,
+                    quis sagittis sem accumsan sit amet. Mauris non ornare
+                    nulla, mollis finibus orci. Etiam vehicula lacus vel elit
+                    lacinia, non vestibulum mi commodo. Suspendisse dapibus,
+                    turpis sit amet ornare fringilla.
+                  </p>
+                  <div class="brands">
+                    <p class="brands_details">
+                      <i class="fa-solid fa-check"></i> Konica Bizhub C3110P
+                    </p>
+                    <p class="brands_details">
+                      <i class="fa-solid fa-check"></i> Orig. Toner TNP51
+                      schwarz 5.000S.
+                    </p>
+                    <p class="brands_details">
+                      <i class="fa-solid fa-check"></i> (43514 - KOMA0X5155)
+                    </p>
+                  </div>
+                </div>
+
+                <!-- <div id="content2" class="tab_content">
+                  <p class="tab_discription">
+                    Fusce porttitor, massa ut congue tincidunt, purus metus
+                    rutrum nunc, sit amet bibendum sem quam id velit. Donec id
+                    tristique dui. Integer cursus augue eu ornare finibus.
+                    Maecenas ac felis orci. Donec nisi enim, volutpat non ante
+                    sed, fringilla gravida ligula. Maecenas ac nulla sed diam
+                    faucibus placerat. Suspendisse in augue iaculis, vehicula
+                    nulla at, molestie diam. <br />
+                    Pellentesque habitant morbi tristique senectus et netus et
+                    malesuada fames ac turpis egestas. Integer varius, libero in
+                    viverra tincidunt, mi metus congue lacus, eget molestie est
+                    augue at mauris. Suspendisse fermentum vestibulum risus,
+                    quis sagittis sem accumsan sit amet. Mauris non ornare
+                    nulla, mollis finibus orci. Etiam vehicula lacus vel elit
+                    lacinia, non vestibulum mi commodo. Suspendisse dapibus,
+                    turpis sit amet ornare fringilla.
+                  </p>
+                  <div class="brands">
+                    <p class="brands_details">
+                      <i class="fa-solid fa-check"></i> Konica Bizhub C3110P
+                    </p>
+                    <p class="brands_details">
+                      <i class="fa-solid fa-check"></i> Orig. Toner TNP51
+                      schwarz 5.000S.
+                    </p>
+                    <p class="brands_details">
+                      <i class="fa-solid fa-check"></i> (43514 - KOMA0X5155)
+                    </p>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Related product section -->
+
+    <section class="related_product container">
+      <div class="related_product_title">
+        <h3>Related Products</h3>
+        <p class="related_product_subtitle">
+          Habitant morbi tristique senectus et netus et malesuada fames ac
+          turpis egestas.
+        </p>
+      </div>
+      <div class="products_cart_holder">
+        <div class="col-md-3 products_cart">
+          <img src="./img/file.png" alt="" />
+          <p>Elba Ordner 8cm DIN A4 Schwarz</p>
+          <h3>25.90 €</h3>
+        </div>
+        <div class="col-md-3 products_cart">
+          <img src="./img/mask.png" alt="" />
+          <p>Neutral Medizinische Masken made in Germany</p>
+          <h3>99.00 €</h3>
+        </div>
+        <div class="col-md-3 products_cart">
+          <img src="./img/tipp.png" alt="" />
+          <p>Tipp Ex Korrekturroller Easy Refill</p>
+          <h3>27.90 €</h3>
+        </div>
+        <div class="col-md-3 products_cart">
+          <img src="./img/printer.png" alt="" />
+          <p>Hewlett Packard Officejet Pro 6230E</p>
+          <h3>26.90 €</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- newslatter -->
+    <section class="newslatter">
+      <div class="container">
+        <div class="newslatter_info">
+          <p>
+            Mit unserem Newsletter informieren wir Sie <br />
+            über neue Produkte und Rabattaktionen
+          </p>
+          <div class="newslatter_box">
+            <input type="text" placeholder="Enter Your Newslatter..." />
+            <button class="newslatter_btn">
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="./img/Logo.png" alt="" />
+            <p class="location_txt">Location</p>
+            <p class="location_details">Laser Plus GmbH</p>
+            <p class="location">Gerhard-Falk-Str. 5 21035 Hamburg</p>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="link">
+                  <p class="links_title">Explore Links</p>
+                  <ul>
+                    <li>
+                      <a class="links" href="#"
+                        ><i class="fa-solid fa-greater-than"></i>About Us</a
+                      >
+                    </li>
+                    <li>
+                      <a class="links" href="#"
+                        ><i class="fa-solid fa-greater-than"></i>Our Team
+                      </a>
+                    </li>
+                    <li>
+                      <a class="links" href="#"
+                        ><i class="fa-solid fa-greater-than"></i>Career & Job</a
+                      >
+                    </li>
+                    <li>
+                      <a class="links" href="#"
+                        ><i class="fa-solid fa-greater-than"></i>Social
+                        Projects</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="link">
+                  <p class="links_title">Explore Links</p>
+                  <ul>
+                    <li>
+                      <a class="links" href="#"
+                        ><i class="fa-solid fa-greater-than"></i>Offers</a
+                      >
+                    </li>
+                    <li>
+                      <a class="links" href="#"
+                        ><i class="fa-solid fa-greater-than"></i>Video
+                      </a>
+                    </li>
+                    <li>
+                      <a class="links" href="#"
+                        ><i class="fa-solid fa-greater-than"></i>Tips</a
+                      >
+                    </li>
+                    <li>
+                      <a class="links" href="#"
+                        ><i class="fa-solid fa-greater-than"></i>Feedback</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="link">
+                  <p class="links_title">Our Products</p>
+                  <ul>
+                    <li>
+                      <a class="links links_sec" href="#"
+                        >Help & Frequently Asked Questions</a
+                      >
+                    </li>
+                    <li>
+                      <a class="links links_sec" href="#"
+                        >Customers recommend customers
+                      </a>
+                    </li>
+                    <li>
+                      <a class="links links_sec" href="#">toner purchase</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="d-flex justify-content-between contact_us">
+              <div class="contact_img">
+                <img src="./img/anfrage.png" alt="" />
+              </div>
+              <div class="contact_details">
+                <p class="contact_name">Anfrage / Bestellung</p>
+                <div class="d-flex">
+                  <p class="contact_tel">Tel.:</p>
+                  <p>
+                    040-25 10 10 <br />
+                    0800-222 20 20
+                  </p>
+                </div>
+                <p class="fax">Fax: 0800-222 20 21</p>
+                <p class="contact_mail">contact@laserplus.de</p>
+              </div>
+            </div>
+            <div class="d-flex contact_us mt-3">
+              <div class="contact_img">
+                <img src="./img/technische.png" alt="" />
+              </div>
+              <div class="contact_details">
+                <p class="contact_name">Technische Hotline</p>
+                <p class="contact_tel">Tel.: 040-25 101-555</p>
+
+                <p class="contact_mail">contact@laserplus.de</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer end -->
+
+    <section class="footer_end">
+      <div class="container">
+        <hr />
+        <div class="end_sec">
+          <div class="copyright">
+            <p class="copy_txt">
+              Copyright © 2022 Alle Rechte vorbehalten.
+              <span class="laser">Laser Plus GmbH.</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JavaScript Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      function ImgChange(event) {
+        document.querySelector(".pro_img").src = event.children[0].src;
+      }
+
+      const plus = document.querySelector(".pos");
+      const nimus = document.querySelector(".neg");
+      const number = document.querySelector(".num");
+
+      let a = 0;
+
+      plus.addEventListener("click", () => {
+        a++;
+        a = a < 10 ? "0" + a : a;
+        number.innerText = a;
+      });
+
+      nimus.addEventListener("click", () => {
+        if (a > 1) {
+          a--;
+          a = a < 10 ? "0" + a : a;
+          number.innerText = a;
+        }
+      });
+    </script>
+  </body>
+</html>
