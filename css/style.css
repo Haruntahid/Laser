@@ -20,6 +20,18 @@ a {
   text-decoration: none !important;
 }
 
+/* header */
+.contact_info {
+  display: flex;
+  flex-direction: column;
+}
+.contact_info span {
+  display: block;
+}
+.info {
+  font-size: 14px;
+}
+
 /* hero section */
 .hero {
   background-image: url(../img/mainbg.png);
